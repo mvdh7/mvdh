@@ -1,3 +1,8 @@
+__all__ = ['olsq_test']
+
+from . import olsq_test
+
+
 import numpy as np
 
 # Replicates first output (i.e. Lia) of MATLAB's ismember(A,B)
