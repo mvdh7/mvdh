@@ -1,4 +1,4 @@
-from scipy import least_squares as olsq
+from scipy.optimize import least_squares as olsq
 
 def dotest():
 

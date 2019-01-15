@@ -5,7 +5,7 @@ with open('README.md','r') as fh:
 
 setuptools.setup(
     name         = 'mvdh',
-    version      = '0.1.1',
+    version      = '0.1.2',
     author       = 'Matthew P. Humphreys',
     author_email = 'm.p.humphreys@cantab.net',
     description  = 'Miscellaneous Python tools',
