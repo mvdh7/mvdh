@@ -5,12 +5,13 @@ with open('README.md','r') as fh:
 
 setuptools.setup(
     name         = 'mvdh',
-    version      = '0.1.3',
+    version      = '0.1.4',
     author       = 'Matthew P. Humphreys',
     author_email = 'm.p.humphreys@cantab.net',
     description  = 'Miscellaneous Python tools',
     url          = 'https://github.com/mvdh7/mvdh',
     packages     = setuptools.find_packages(),
+    install_requires = ['autograd==1.2'],
     dependency_links = ['https://github.com/mvdh7/autograd/tarball/master'],
     long_description = long_description,
     long_description_content_type = 'text/markdown',
